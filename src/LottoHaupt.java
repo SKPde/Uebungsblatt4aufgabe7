@@ -7,11 +7,11 @@ public class LottoHaupt {
 		// TODO Auto-generated method stub
 		HashSet<Integer> lotto = new HashSet<Integer>();
 		int x = 0;
-		
-		while(lotto.size() < 7) {
-			lotto.add(1 + (int) (Math.random()*49));
+
+		while (lotto.size() < 7) {
+			lotto.add(1 + (int) (Math.random() * 49));
 		}
-		
+
 		System.out.println(lotto);
 	}
 }
