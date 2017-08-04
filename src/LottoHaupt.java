@@ -5,11 +5,13 @@ public class LottoHaupt {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Set<Integer> lotto = new HashSet<Integer>();
-
+		HashSet<Integer> lotto = new HashSet<Integer>();
+		int x = 0;
+		
 		while(lotto.size() < 7) {
-			lotto.add((int) Math.random()*48);
-			System.out.println("Schleife");
+			lotto.add(1 + (int) (Math.random()*49));
 		}
+		
+		System.out.println(lotto);
 	}
 }
